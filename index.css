@@ -150,6 +150,29 @@ ul {
   .services .services-grid{
    flex-direction: column;
   }
+  .main-container .branding{
+    padding: 20px;
+  }
+  .branding .branding-title{
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .branding .branding-subtitle{
+    margin-top: 10px;
+  }
+  .branding .branding-items{
+
+    flex-direction: column;
+    margin-top: 30px;
+    row-gap: 20px;
+  }
+  .branding .brand-item-title {
+margin-right: 0;
+  }
+  .branding .brand-item-image{
+    margin-right: 0;
+  }
   .portfolio-item img {
     display: none
 }
